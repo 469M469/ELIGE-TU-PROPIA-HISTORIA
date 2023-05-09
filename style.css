@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: rgb(19, 19, 19);
+}
+.fondo_inicio{
+    height: 100vh;
+    width: 100%;
+    background-image: url("assets/fondo_hp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fondo_inicio img{
+    width: 400px;
+}
+header{
+    width: 100%;
+    background-color: rgba(41, 243, 0, 0.685);
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    position: sticky;
+    top: 10px;
+}
+nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin: 0 10px;
+}
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.escritora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
